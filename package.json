@@ -9,8 +9,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs",
-    "watch": "rollup --watch -c --bundleConfigAsCjs",
+    "build": "rollup -c",
+    "watch": "rollup --watch -c",
     "clean": "rimraf ./dist",
     "prebuild": "yarn clean",
     "release": "yarn build && auto shipit",
@@ -26,8 +26,6 @@
     "@babel/runtime": "^7.23.2",
     "@emotion/babel-plugin": "^11.11.0",
     "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.14.16",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
@@ -75,7 +73,6 @@
       "optional": true
     }
   },
-  "packageManager": "yarn@4.0.1",
   "description": "A quick guide to try and publish my own set of react components",
   "repository": {
     "type": "git",

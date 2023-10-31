@@ -1,9 +1,6 @@
-'use client';
-import React from 'react';
 import styled from '@emotion/styled';
-import { Button as _Button } from '@mui/material';
+import { Button as MUIButton } from '@mui/material';
 import PropTypes from 'prop-types';
-
 /**
  * Button component
  * @component
@@ -15,7 +12,7 @@ import PropTypes from 'prop-types';
  * @returns {React.ReactElement} The Button.
  */
 function UnstyledButton(props) {
-  return <_Button {...props} />;
+  return <MUIButton {...props} />;
 }
 
 export const Button = styled(UnstyledButton)`
