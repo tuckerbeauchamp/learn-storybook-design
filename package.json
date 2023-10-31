@@ -17,8 +17,7 @@
     "release": "yarn build && auto shipit",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_4a29ec15b1b865c"
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
