@@ -1,5 +1,5 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "@tuckerbeauchamp/storybook-design-template",
   "version": "0.1.0",
   "private": true,
   "main": "dist/cjs/index.js",
@@ -75,6 +75,14 @@
     }
   },
   "packageManager": "yarn@4.0.1",
-  "readme": "ERROR: No README data found!",
-  "_id": "learnstorybook-design-system-template@0.1.0"
+  "description": "A quick guide to try and publish my own set of react components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuckerbeauchamp/learn-storybook-design.git"
+  },
+  "author": "Tucker Beauchamp",
+  "bugs": {
+    "url": "https://github.com/tuckerbeauchamp/learn-storybook-design/issues"
+  },
+  "homepage": "https://github.com/tuckerbeauchamp/learn-storybook-design#readme"
 }
