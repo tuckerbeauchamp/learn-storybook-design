@@ -14,11 +14,11 @@ import PropTypes from 'prop-types';
  * @param {React.ReactNode | string} props.children
  * @returns {React.ReactElement} The Button.
  */
-function Button(props) {
+function UnstyledButton(props) {
   return <_Button {...props} />;
 }
 
-export default styled(Button)`
+export const Button = styled(Button)`
   ${({ theme, shape }) => `
   border-radius: ${theme.shape[shape]};`}
 `;

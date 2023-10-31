@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-env", "virtual:50a6df2a738575844ab08904ae441114d9f58fceb6dd9be8feada7b7d95b765468b289cb70fd8df9215c135bc1949c9a0534d3ba5150795713937e8fced8c3e6#npm:7.23.2"],\
           ["@babel/preset-react", "virtual:ea6b1fc60c059d02af8757c3291e7c52608c6f7853d0a21b1c7b01abb1e1ebd78fddc0c1df33c78c2f8f14f49900c01d908f45e31b352db779dbbecf657b39cd#npm:7.22.15"],\
           ["@babel/preset-typescript", "virtual:a3e7898d0bf79e567456a9dd062ae4397f21acc610ae797109097e4ff13d4e22fb0f13b1f9b40a89ff08bc240cad91cf71b7faa86d994211f6d5ecc221b5e9e7#npm:7.23.2"],\
+          ["@babel/runtime", "npm:7.23.2"],\
           ["@emotion/babel-plugin", "npm:11.11.0"],\
           ["@emotion/react", "virtual:ea6b1fc60c059d02af8757c3291e7c52608c6f7853d0a21b1c7b01abb1e1ebd78fddc0c1df33c78c2f8f14f49900c01d908f45e31b352db779dbbecf657b39cd#npm:11.11.1"],\
           ["@emotion/styled", "virtual:ea6b1fc60c059d02af8757c3291e7c52608c6f7853d0a21b1c7b01abb1e1ebd78fddc0c1df33c78c2f8f14f49900c01d908f45e31b352db779dbbecf657b39cd#npm:11.11.0"],\
@@ -6474,6 +6475,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-env", "virtual:50a6df2a738575844ab08904ae441114d9f58fceb6dd9be8feada7b7d95b765468b289cb70fd8df9215c135bc1949c9a0534d3ba5150795713937e8fced8c3e6#npm:7.23.2"],\
           ["@babel/preset-react", "virtual:ea6b1fc60c059d02af8757c3291e7c52608c6f7853d0a21b1c7b01abb1e1ebd78fddc0c1df33c78c2f8f14f49900c01d908f45e31b352db779dbbecf657b39cd#npm:7.22.15"],\
           ["@babel/preset-typescript", "virtual:a3e7898d0bf79e567456a9dd062ae4397f21acc610ae797109097e4ff13d4e22fb0f13b1f9b40a89ff08bc240cad91cf71b7faa86d994211f6d5ecc221b5e9e7#npm:7.23.2"],\
+          ["@babel/runtime", "npm:7.23.2"],\
           ["@emotion/babel-plugin", "npm:11.11.0"],\
           ["@emotion/react", "virtual:ea6b1fc60c059d02af8757c3291e7c52608c6f7853d0a21b1c7b01abb1e1ebd78fddc0c1df33c78c2f8f14f49900c01d908f45e31b352db779dbbecf657b39cd#npm:11.11.1"],\
           ["@emotion/styled", "virtual:ea6b1fc60c059d02af8757c3291e7c52608c6f7853d0a21b1c7b01abb1e1ebd78fddc0c1df33c78c2f8f14f49900c01d908f45e31b352db779dbbecf657b39cd#npm:11.11.0"],\
