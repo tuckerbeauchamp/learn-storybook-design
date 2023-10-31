@@ -39,6 +39,6 @@ export default [
         exclude: 'node_modules/**',
       }),
     ],
-    external: ['react', 'react-dom', '@emotion/react', '@emotion/styled'],
+    external: ['react', 'react-dom', '@emotion/react', '@emotion/styled','@mui/material'],
   },
 ];

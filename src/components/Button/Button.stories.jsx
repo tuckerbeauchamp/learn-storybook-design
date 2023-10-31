@@ -1,13 +1,13 @@
-import Button from "./Button";
+import { Button } from './Button';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Design-System/Button",
+  title: 'Design-System/Button',
   component: Button,
 
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout
-    layout: "centered",
+    layout: 'centered',
   },
   argTypes: {
     style: {
@@ -16,35 +16,35 @@ export default {
       },
     },
     color: {
-      type: "select",
-      options: ["primary", "accent", "action"],
-      description: "The color of the button",
+      type: 'select',
+      options: ['primary', 'accent', 'action'],
+      description: 'The color of the button',
     },
     variant: {
-      type: "select",
-      options: ["contained", "outlined", "text"],
-      description: "How do we want the button to look like?",
+      type: 'select',
+      options: ['contained', 'outlined', 'text'],
+      description: 'How do we want the button to look like?',
     },
     shape: {
-      type: "select",
-      options: ["rounded", "square", "pill"],
-      description: "How do we want the button to look like?",
+      type: 'select',
+      options: ['rounded', 'square', 'pill'],
+      description: 'How do we want the button to look like?',
     },
     children: {
-      description: "The content of the button",
+      description: 'The content of the button',
     },
   },
   args: {
-    children: "Button",
+    children: 'Button',
   },
 };
 
 export const Primary = {
   args: {
-    variant: "contained",
-    color: "primary",
-    shape: "rounded",
-    children: "Button",
+    variant: 'contained',
+    color: 'primary',
+    shape: 'rounded',
+    children: 'Button',
   },
 };
 
@@ -53,9 +53,9 @@ export const Primary = {
  */
 export const Colors = {
   args: {
-    variant: "contained",
-    shape: "rounded",
-    style: { marginRight: "8px" },
+    variant: 'contained',
+    shape: 'rounded',
+    style: { marginRight: '8px' },
   },
   argTypes: {
     children: {
@@ -71,13 +71,13 @@ export const Colors = {
   },
   render: (args) => (
     <>
-      <Button {...args} color="primary">
+      <Button {...args} color='primary'>
         Primary
       </Button>
-      <Button {...args} color="accent">
+      <Button {...args} color='accent'>
         Accent
       </Button>
-      <Button {...args} color="action">
+      <Button {...args} color='action'>
         Action
       </Button>
     </>
@@ -89,9 +89,9 @@ export const Colors = {
  */
 export const Shapes = {
   args: {
-    variant: "contained",
-    color: "primary",
-    style: { marginRight: "8px" },
+    variant: 'contained',
+    color: 'primary',
+    style: { marginRight: '8px' },
   },
   argTypes: {
     children: {
@@ -108,13 +108,13 @@ export const Shapes = {
 
   render: (args) => (
     <>
-      <Button {...args} shape="rounded">
+      <Button {...args} shape='rounded'>
         Rounded
       </Button>
-      <Button {...args} shape="square">
+      <Button {...args} shape='square'>
         Square
       </Button>
-      <Button {...args} shape="pill">
+      <Button {...args} shape='pill'>
         Pill
       </Button>
     </>
@@ -126,9 +126,9 @@ export const Shapes = {
  */
 export const Variants = {
   args: {
-    color: "primary",
-    shape: "rounded",
-    style: { marginRight: "8px" },
+    color: 'primary',
+    shape: 'rounded',
+    style: { marginRight: '8px' },
   },
   argTypes: {
     children: {
@@ -145,13 +145,13 @@ export const Variants = {
 
   render: (args) => (
     <>
-      <Button {...args} variant="contained">
+      <Button {...args} variant='contained'>
         Contained
       </Button>
-      <Button {...args} variant="outlined">
+      <Button {...args} variant='outlined'>
         Outlined
       </Button>
-      <Button {...args} variant="text">
+      <Button {...args} variant='text'>
         Text
       </Button>
     </>
@@ -163,9 +163,9 @@ export const Variants = {
  */
 export const Controls = {
   args: {
-    variant: "contained",
-    color: "primary",
-    shape: "rounded",
-    children: "Button",
+    variant: 'contained',
+    color: 'primary',
+    shape: 'rounded',
+    children: 'Button',
   },
 };
