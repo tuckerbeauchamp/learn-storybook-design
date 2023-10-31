@@ -18,7 +18,7 @@ function UnstyledButton(props) {
   return <_Button {...props} />;
 }
 
-export const Button = styled(Button)`
+export const Button = styled(UnstyledButton)`
   ${({ theme, shape }) => `
   border-radius: ${theme.shape[shape]};`}
 `;
