@@ -7,7 +7,7 @@ export { styles, animation, icons, global };
 
 export * from './Avatar';
 export * from './Badge';
-export * from './Button';
+export * from './components/Button';
 export * from './Icon';
 export * from './Link';
 export * from './LinkWrapper';
